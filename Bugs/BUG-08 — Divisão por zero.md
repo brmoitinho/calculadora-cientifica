@@ -55,4 +55,4 @@ Após a correção, a fase Green reportou `2 passed` com pytest 7.1.3. Os testes
 
 **Data de Identificação:** 06/11/2026. Atualização do relatório: 07/11/2026.
 
-**Status do Bug:** Resolvido. Correção aplicada e testes TDD executados com sucesso no repositório original, conforme confirmação do autor.
+**Status do Bug:** Resolvido. Correção aplicada e testes TDD executados com sucesso no repositório original.
