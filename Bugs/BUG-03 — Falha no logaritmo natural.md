@@ -7,7 +7,7 @@
 
 **Descrição Clara do Bug:** A implementação chama `np.ln(x)`, atributo que não existe no módulo NumPy. Para um argumento positivo, a função lança `AttributeError` em vez de calcular e apresentar o logaritmo natural.
 
-**Contexto:** Reproduzido com Python 3.12.3 e NumPy 2.5.4 em Linux; `hasattr(np, "ln")` devolve `False`.
+**Contexto:** Reproduzido com Python 3.12.3 e NumPy 2.5.4 no Windows; `hasattr(np, "ln")` devolve `False`.
 
 ## Passos para Reproduzir
 

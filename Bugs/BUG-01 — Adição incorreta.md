@@ -7,7 +7,7 @@
 
 **Descrição Clara do Bug:** O ciclo percorre `range(x+1)`, que começa em zero. Na primeira iteração, `fat *= 0` transforma o acumulador em zero, e as restantes multiplicações mantêm esse valor. Além disso, para um inteiro negativo o ciclo não é executado e a função devolve `1`, sem rejeitar a entrada.
 
-**Contexto:** A opção 7 converte a entrada do utilizador para inteiro antes de chamar a função. Reproduzido com Python 3.12.3 e NumPy 2.5.4 em Linux.
+**Contexto:** A opção 7 converte a entrada do utilizador para inteiro antes de chamar a função. Reproduzido com Python 3.12.3 e NumPy 2.5.4 no Windows.
 
 ## Passos para Reproduzir
 

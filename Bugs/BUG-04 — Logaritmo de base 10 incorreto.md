@@ -7,7 +7,7 @@
 
 **Descrição Clara do Bug:** A função usa `np.log(x)`, que calcula o logaritmo natural, não o logaritmo de base 10. A validação também só rejeita `x < 0`; para `x = 0`, a função devolve `-inf` e emite um aviso de divisão por zero.
 
-**Contexto:** Reproduzido com Python 3.12.3 e NumPy 2.5.4 em Linux. Foram testados os valores 100 e 0.
+**Contexto:** Reproduzido com Python 3.12.3 e NumPy 2.5.4 no Windows. Foram testados os valores 100 e 0.
 
 ## Passos para Reproduzir
 

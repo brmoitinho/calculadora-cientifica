@@ -10,6 +10,8 @@ def multiplicacao(x, y):
     return np.multiply(x, y)
 
 def divisao(x, y):
+    if y == 0:
+        raise ValueError("Divisão por zero não permitida.")
     return x / y
 
 def potencia(x, y):
@@ -70,7 +72,10 @@ def calculadora_cientifica():
         elif escolha == '3':
             print("Resultado:", multiplicacao(x, y))
         elif escolha == '4':
-            print("Resultado:", divisao(x, y))
+            try:
+                print("Resultado:", divisao(x, y))
+            except ValueError as erro:
+                print("Erro:", erro)
         elif escolha == '5':
             print("Resultado:", potencia(x, y))
     

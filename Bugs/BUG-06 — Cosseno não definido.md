@@ -7,7 +7,7 @@
 
 **Descrição Clara do Bug:** A opção 11 chama uma função que não foi definida. Ao selecionar cosseno, o programa lança `NameError` e termina sem apresentar resultado.
 
-**Contexto:** Reproduzido com Python 3.12.3 e NumPy 2.5.4 em Linux. O menu pede o ângulo em graus.
+**Contexto:** Reproduzido com Python 3.12.3 e NumPy 2.5.4 no Windows. O menu pede o ângulo em graus.
 
 ## Passos para Reproduzir
 
